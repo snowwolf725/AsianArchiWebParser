@@ -29,6 +29,12 @@ public class Company {
 	private String serviceAddress = "";
 	
 	private String web = "";
+	
+	private String phone = "";
+	
+	private String relateData = "";
+	
+	private int zip = 0;
 
 	public String getNo() {
 		return no;
@@ -140,5 +146,29 @@ public class Company {
 
 	public void setWeb(String web) {
 		this.web = web;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getRelateData() {
+		return relateData;
+	}
+
+	public void setRelateData(String relateData) {
+		this.relateData = relateData;
+	}
+
+	public int getZip() {
+		return zip;
+	}
+
+	public void setZip(int zip) {
+		this.zip = zip;
 	}
 }
